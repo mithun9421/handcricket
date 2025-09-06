@@ -1,0 +1,138 @@
+
+> my-app@0.1.0 dev
+> node server.js
+
+> Ready on http://localhost:3000
+Player connected: Jmz3gg5JiMlCE974AAAB
+Player connected: gJ6wpwoSoLSGZTkBAAAD
+Player connected: EVjVtNnudlx1IscBAAAF
+ ○ Compiling / ...
+ ✓ Compiled / in 1057ms (1549 modules)
+Player disconnected: Jmz3gg5JiMlCE974AAAB
+ GET / 200 in 1281ms
+Player connected: hLV-a81nr_inkotwAAAH
+Player disconnected: gJ6wpwoSoLSGZTkBAAAD
+ GET / 200 in 24ms
+Player connected: nzwA0No7L0JvUCH1AAAJ
+ ✓ Compiled /favicon.ico in 261ms (860 modules)
+ GET /favicon.ico 200 in 328ms
+[GAME LOG] 2025-09-06T10:24:50.761Z - room_1757154290760_397rr1ols - game_start: {
+  players: [
+    { id: 'hLV-a81nr_inkotwAAAH', name: 'Mithun' },
+    { id: 'nzwA0No7L0JvUCH1AAAJ', name: 'Sruthi' }
+  ],
+  sessionId: 'room_1757154290760_397rr1ols'
+}
+ ✓ Compiled in 171ms (706 modules)
+ GET / 200 in 51ms
+ GET / 200 in 53ms
+[GAME LOG] 2025-09-06T10:24:53.578Z - room_1757154290760_397rr1ols - toss: {
+  choice: 'tails',
+  winner: 'hLV-a81nr_inkotwAAAH',
+  winnerName: 'Mithun'
+}
+ ✓ Compiled in 104ms (706 modules)
+ GET / 200 in 21ms
+ GET / 200 in 22ms
+[GAME LOG] 2025-09-06T10:24:55.058Z - room_1757154290760_397rr1ols - batting_choice: {
+  choice: 'bowl',
+  currentBatsman: 'nzwA0No7L0JvUCH1AAAJ',
+  currentBowler: 'hLV-a81nr_inkotwAAAH',
+  batsmanName: 'Sruthi',
+  bowlerName: 'Mithun'
+}
+ ✓ Compiled in 86ms (706 modules)
+ GET / 200 in 20ms
+ GET / 200 in 21ms
+[GAME LOG] 2025-09-06T10:25:02.053Z - room_1757154290760_397rr1ols - move: { number: 3, role: 'bowler', innings: 1 }
+ ✓ Compiled in 100ms (706 modules)
+ GET / 200 in 35ms
+ GET / 200 in 36ms
+[GAME LOG] 2025-09-06T10:25:07.359Z - room_1757154290760_397rr1ols - move: { number: 3, role: 'batsman', innings: 1 }
+[GAME LOG] 2025-09-06T10:25:07.360Z - room_1757154290760_397rr1ols - wicket: {
+  batsmanMove: 3,
+  bowlerMove: 3,
+  runs: 0,
+  isWicket: true,
+  batsmanName: 'Sruthi',
+  bowlerName: 'Mithun',
+  newInnings: true,
+  targetScore: 1,
+  currentScore: 0
+}
+ ✓ Compiled in 100ms (706 modules)
+ GET / 200 in 22ms
+ GET / 200 in 21ms
+[GAME LOG] 2025-09-06T10:25:15.336Z - room_1757154290760_397rr1ols - move: { number: 1, role: 'batsman', innings: 2 }
+ ✓ Compiled in 107ms (706 modules)
+ GET / 200 in 24ms
+ GET / 200 in 24ms
+[GAME LOG] 2025-09-06T10:25:17.085Z - room_1757154290760_397rr1ols - move: { number: 3, role: 'bowler', innings: 2 }
+[GAME LOG] 2025-09-06T10:25:17.086Z - room_1757154290760_397rr1ols - runs: {
+  batsmanMove: 1,
+  bowlerMove: 3,
+  runs: 1,
+  isWicket: false,
+  batsmanName: 'Mithun',
+  bowlerName: 'Sruthi',
+  newInnings: false,
+  targetScore: undefined,
+  currentScore: 1
+}
+[GAME LOG] 2025-09-06T10:25:17.087Z - room_1757154290760_397rr1ols - game_end: {
+  finalScore: { 'hLV-a81nr_inkotwAAAH': 1, nzwA0No7L0JvUCH1AAAJ: 0 },
+  winner: 'hLV-a81nr_inkotwAAAH',
+  duration: 26327,
+  totalMoves: 4
+}
+ ✓ Compiled in 92ms (706 modules)
+ GET / 200 in 20ms
+ GET / 200 in 21ms
+ ✓ Compiled in 353ms (1549 modules)
+ GET / 200 in 80ms
+ GET / 200 in 80ms
+ ✓ Compiled in 127ms (1549 modules)
+ GET / 200 in 45ms
+ GET / 200 in 46ms
+ ✓ Compiled in 63ms (706 modules)
+ GET / 200 in 22ms
+ GET / 200 in 21ms
+ ✓ Compiled in 98ms (706 modules)
+ GET / 200 in 56ms
+ GET / 200 in 58ms
+ ✓ Compiled in 99ms (706 modules)
+ GET / 200 in 18ms
+ GET / 200 in 17ms
+ ✓ Compiled in 76ms (706 modules)
+ GET / 200 in 67ms
+ GET / 200 in 66ms
+ ✓ Compiled in 69ms (706 modules)
+ GET / 200 in 17ms
+ GET / 200 in 18ms
+ ✓ Compiled in 99ms (706 modules)
+ GET / 200 in 68ms
+ GET / 200 in 67ms
+ ✓ Compiled in 72ms (706 modules)
+ GET / 200 in 16ms
+ GET / 200 in 17ms
+ ✓ Compiled in 200ms (1549 modules)
+ GET / 200 in 56ms
+ GET / 200 in 55ms
+ ✓ Compiled in 250ms (1477 modules)
+ GET / 200 in 42ms
+ GET / 200 in 43ms
+ ✓ Compiled in 218ms (1477 modules)
+ GET / 200 in 30ms
+ GET / 200 in 30ms
+ ✓ Compiled in 270ms (1483 modules)
+ GET / 200 in 51ms
+ GET / 200 in 51ms
+ ✓ Compiled in 130ms (673 modules)
+ GET / 200 in 21ms
+ GET / 200 in 21ms
+ ✓ Compiled in 68ms (673 modules)
+ GET / 200 in 17ms
+ GET / 200 in 19ms
+ ✓ Compiled in 244ms (1483 modules)
+ GET / 200 in 52ms
+ GET / 200 in 53ms

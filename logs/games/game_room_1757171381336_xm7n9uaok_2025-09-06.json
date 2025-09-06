@@ -1,0 +1,104 @@
+{
+  "id": "room_1757171381336_xm7n9uaok_start_1757171381337",
+  "gameId": "room_1757171381336_xm7n9uaok",
+  "timestamp": "2025-09-06T15:09:41.337Z",
+  "type": "game_start",
+  "data": {
+    "players": [
+      {
+        "id": "GL1F0RQRnvLKpQL1AAAF",
+        "name": "Mithun"
+      },
+      {
+        "id": "-6JLG279RJqWcK0vAAAB",
+        "name": "madhu"
+      }
+    ],
+    "sessionId": "room_1757171381336_xm7n9uaok"
+  }
+}
+{
+  "id": "room_1757171381336_xm7n9uaok_toss_1757171382755",
+  "gameId": "room_1757171381336_xm7n9uaok",
+  "timestamp": "2025-09-06T15:09:42.755Z",
+  "type": "toss",
+  "playerId": "-6JLG279RJqWcK0vAAAB",
+  "playerName": "madhu",
+  "data": {
+    "choice": "heads",
+    "winner": "-6JLG279RJqWcK0vAAAB",
+    "winnerName": "madhu"
+  }
+}
+{
+  "id": "room_1757171381336_xm7n9uaok_batting_choice_1757171383363",
+  "gameId": "room_1757171381336_xm7n9uaok",
+  "timestamp": "2025-09-06T15:09:43.363Z",
+  "type": "batting_choice",
+  "playerId": "-6JLG279RJqWcK0vAAAB",
+  "playerName": "madhu",
+  "data": {
+    "choice": "bat",
+    "currentBatsman": "-6JLG279RJqWcK0vAAAB",
+    "currentBowler": "GL1F0RQRnvLKpQL1AAAF",
+    "batsmanName": "madhu",
+    "bowlerName": "Mithun"
+  }
+}
+{
+  "id": "room_1757171381336_xm7n9uaok_move_1757171388347_-6JLG279RJqWcK0vAAAB",
+  "gameId": "room_1757171381336_xm7n9uaok",
+  "timestamp": "2025-09-06T15:09:48.347Z",
+  "type": "move",
+  "playerId": "-6JLG279RJqWcK0vAAAB",
+  "playerName": "madhu",
+  "data": {
+    "number": 1,
+    "role": "batsman",
+    "innings": 1
+  }
+}
+{
+  "id": "room_1757171381336_xm7n9uaok_move_1757171394320_GL1F0RQRnvLKpQL1AAAF",
+  "gameId": "room_1757171381336_xm7n9uaok",
+  "timestamp": "2025-09-06T15:09:54.320Z",
+  "type": "move",
+  "playerId": "GL1F0RQRnvLKpQL1AAAF",
+  "playerName": "Mithun",
+  "data": {
+    "number": 4,
+    "role": "bowler",
+    "innings": 1
+  }
+}
+{
+  "id": "room_1757171381336_xm7n9uaok_result_1757171394321",
+  "gameId": "room_1757171381336_xm7n9uaok",
+  "timestamp": "2025-09-06T15:09:54.321Z",
+  "type": "runs",
+  "playerId": "-6JLG279RJqWcK0vAAAB",
+  "playerName": "madhu",
+  "data": {
+    "batsmanMove": 1,
+    "bowlerMove": 4,
+    "runs": 1,
+    "isOut": false,
+    "batsmanName": "madhu",
+    "bowlerName": "Mithun",
+    "newInnings": false,
+    "currentScore": 1
+  }
+}
+{
+  "id": "room_1757171381336_xm7n9uaok_move_1757171397967_GL1F0RQRnvLKpQL1AAAF",
+  "gameId": "room_1757171381336_xm7n9uaok",
+  "timestamp": "2025-09-06T15:09:57.967Z",
+  "type": "move",
+  "playerId": "GL1F0RQRnvLKpQL1AAAF",
+  "playerName": "Mithun",
+  "data": {
+    "number": 6,
+    "role": "bowler",
+    "innings": 1
+  }
+}

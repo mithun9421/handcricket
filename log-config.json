@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "targets": {
+    "file": {
+      "enabled": true,
+      "directory": "./logs/games",
+      "format": "json",
+      "separateFiles": true
+    },
+    "console": {
+      "enabled": true,
+      "level": "info"
+    },
+    "database": {
+      "enabled": false,
+      "connection": ""
+    },
+    "webhook": {
+      "enabled": false,
+      "url": "",
+      "headers": {}
+    }
+  },
+  "retention": {
+    "maxFiles": 1000,
+    "maxAge": 30
+  },
+  "features": {
+    "playerTracking": true,
+    "gameAnalytics": true,
+    "performanceMetrics": true,
+    "errorTracking": true
+  },
+  "privacy": {
+    "anonymizePlayerNames": false,
+    "excludePersonalData": false,
+    "dataRetentionDays": 90
+  }
+}

@@ -1,0 +1,15 @@
+Placeholder for sound files. 
+
+Required sound files:
+- click.mp3 (button click sound)
+- crowd-cheer.mp3 (crowd cheering for sixer)
+- wicket.mp3 (wicket falling sound)
+- bat-hit.mp3 (bat hitting ball)
+- coin-flip.mp3 (coin toss sound)
+- victory.mp3 (victory fanfare)
+- notification.mp3 (notification sound)
+
+You can add your own sound files here or use free sounds from:
+- freesound.org
+- zapsplat.com
+- pixabay.com/sound-effects/

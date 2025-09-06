@@ -1,0 +1,47 @@
+{
+  "id": "room_1757171200319_4dk80dusj_start_1757171200319",
+  "gameId": "room_1757171200319_4dk80dusj",
+  "timestamp": "2025-09-06T15:06:40.319Z",
+  "type": "game_start",
+  "data": {
+    "players": [
+      {
+        "id": "-6JLG279RJqWcK0vAAAB",
+        "name": "Mithun"
+      },
+      {
+        "id": "3JqAjy2KGgs6_RuJAAAD",
+        "name": "Madhu"
+      }
+    ],
+    "sessionId": "room_1757171200319_4dk80dusj"
+  }
+}
+{
+  "id": "room_1757171200319_4dk80dusj_toss_1757171205253",
+  "gameId": "room_1757171200319_4dk80dusj",
+  "timestamp": "2025-09-06T15:06:45.253Z",
+  "type": "toss",
+  "playerId": "3JqAjy2KGgs6_RuJAAAD",
+  "playerName": "Madhu",
+  "data": {
+    "choice": "heads",
+    "winner": "3JqAjy2KGgs6_RuJAAAD",
+    "winnerName": "Madhu"
+  }
+}
+{
+  "id": "room_1757171200319_4dk80dusj_batting_choice_1757171206375",
+  "gameId": "room_1757171200319_4dk80dusj",
+  "timestamp": "2025-09-06T15:06:46.375Z",
+  "type": "batting_choice",
+  "playerId": "3JqAjy2KGgs6_RuJAAAD",
+  "playerName": "Madhu",
+  "data": {
+    "choice": "bat",
+    "currentBatsman": "3JqAjy2KGgs6_RuJAAAD",
+    "currentBowler": "-6JLG279RJqWcK0vAAAB",
+    "batsmanName": "Madhu",
+    "bowlerName": "Mithun"
+  }
+}

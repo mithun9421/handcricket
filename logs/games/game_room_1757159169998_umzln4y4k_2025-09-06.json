@@ -1,0 +1,195 @@
+{
+  "id": "room_1757159169998_umzln4y4k_start_1757159169999",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:09.999Z",
+  "type": "game_start",
+  "data": {
+    "players": [
+      {
+        "id": "aDNZDamSruPE2gHuAAAB",
+        "name": "Mithun"
+      },
+      {
+        "id": "zSkP3zE8eKu-db3AAAAF",
+        "name": "Sruthi"
+      }
+    ],
+    "sessionId": "room_1757159169998_umzln4y4k"
+  }
+}
+{
+  "id": "room_1757159169998_umzln4y4k_toss_1757159172256",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:12.256Z",
+  "type": "toss",
+  "playerId": "aDNZDamSruPE2gHuAAAB",
+  "playerName": "Mithun",
+  "data": {
+    "choice": "heads",
+    "winner": "aDNZDamSruPE2gHuAAAB",
+    "winnerName": "Mithun"
+  }
+}
+{
+  "id": "room_1757159169998_umzln4y4k_batting_choice_1757159176770",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:16.770Z",
+  "type": "batting_choice",
+  "playerId": "aDNZDamSruPE2gHuAAAB",
+  "playerName": "Mithun",
+  "data": {
+    "choice": "bat",
+    "currentBatsman": "aDNZDamSruPE2gHuAAAB",
+    "currentBowler": "zSkP3zE8eKu-db3AAAAF",
+    "batsmanName": "Mithun",
+    "bowlerName": "Sruthi"
+  }
+}
+{
+  "id": "room_1757159169998_umzln4y4k_move_1757159189637_aDNZDamSruPE2gHuAAAB",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:29.637Z",
+  "type": "move",
+  "playerId": "aDNZDamSruPE2gHuAAAB",
+  "playerName": "Mithun",
+  "data": {
+    "number": 5,
+    "role": "batsman",
+    "innings": 1
+  }
+}
+{
+  "id": "room_1757159169998_umzln4y4k_move_1757159194246_zSkP3zE8eKu-db3AAAAF",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:34.246Z",
+  "type": "move",
+  "playerId": "zSkP3zE8eKu-db3AAAAF",
+  "playerName": "Sruthi",
+  "data": {
+    "number": 4,
+    "role": "bowler",
+    "innings": 1
+  }
+}
+{
+  "id": "room_1757159169998_umzln4y4k_result_1757159194247",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:34.247Z",
+  "type": "runs",
+  "playerId": "aDNZDamSruPE2gHuAAAB",
+  "playerName": "Mithun",
+  "data": {
+    "batsmanMove": 5,
+    "bowlerMove": 4,
+    "runs": 5,
+    "isOut": false,
+    "batsmanName": "Mithun",
+    "bowlerName": "Sruthi",
+    "newInnings": false,
+    "currentScore": 5
+  }
+}
+{
+  "id": "room_1757159169998_umzln4y4k_move_1757159199944_aDNZDamSruPE2gHuAAAB",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:39.944Z",
+  "type": "move",
+  "playerId": "aDNZDamSruPE2gHuAAAB",
+  "playerName": "Mithun",
+  "data": {
+    "number": 6,
+    "role": "batsman",
+    "innings": 1
+  }
+}
+{
+  "id": "room_1757159169998_umzln4y4k_move_1757159202154_zSkP3zE8eKu-db3AAAAF",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:42.154Z",
+  "type": "move",
+  "playerId": "zSkP3zE8eKu-db3AAAAF",
+  "playerName": "Sruthi",
+  "data": {
+    "number": 6,
+    "role": "bowler",
+    "innings": 1
+  }
+}
+{
+  "id": "room_1757159169998_umzln4y4k_result_1757159202155",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:42.155Z",
+  "type": "out",
+  "playerId": "aDNZDamSruPE2gHuAAAB",
+  "playerName": "Mithun",
+  "data": {
+    "batsmanMove": 6,
+    "bowlerMove": 6,
+    "runs": 0,
+    "isOut": true,
+    "batsmanName": "Mithun",
+    "bowlerName": "Sruthi",
+    "newInnings": true,
+    "targetScore": 6,
+    "currentScore": 5
+  }
+}
+{
+  "id": "room_1757159169998_umzln4y4k_move_1757159208237_zSkP3zE8eKu-db3AAAAF",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:48.237Z",
+  "type": "move",
+  "playerId": "zSkP3zE8eKu-db3AAAAF",
+  "playerName": "Sruthi",
+  "data": {
+    "number": 6,
+    "role": "batsman",
+    "innings": 2
+  }
+}
+{
+  "id": "room_1757159169998_umzln4y4k_move_1757159210343_aDNZDamSruPE2gHuAAAB",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:50.343Z",
+  "type": "move",
+  "playerId": "aDNZDamSruPE2gHuAAAB",
+  "playerName": "Mithun",
+  "data": {
+    "number": 6,
+    "role": "bowler",
+    "innings": 2
+  }
+}
+{
+  "id": "room_1757159169998_umzln4y4k_result_1757159210344",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:50.344Z",
+  "type": "out",
+  "playerId": "zSkP3zE8eKu-db3AAAAF",
+  "playerName": "Sruthi",
+  "data": {
+    "batsmanMove": 6,
+    "bowlerMove": 6,
+    "runs": 0,
+    "isOut": true,
+    "batsmanName": "Sruthi",
+    "bowlerName": "Mithun",
+    "newInnings": false,
+    "currentScore": 0
+  }
+}
+{
+  "id": "room_1757159169998_umzln4y4k_end_1757159210346",
+  "gameId": "room_1757159169998_umzln4y4k",
+  "timestamp": "2025-09-06T11:46:50.346Z",
+  "type": "game_end",
+  "data": {
+    "finalScore": {
+      "aDNZDamSruPE2gHuAAAB": 5,
+      "zSkP3zE8eKu-db3AAAAF": 0
+    },
+    "winner": "aDNZDamSruPE2gHuAAAB",
+    "duration": 40347,
+    "totalMoves": 6
+  }
+}
