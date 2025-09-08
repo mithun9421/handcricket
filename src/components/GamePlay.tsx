@@ -111,87 +111,11 @@ const GamePlay = () => {
 
   const getMyScore = () => gameState.scores[socket?.id || ''] || 0;
   const getOpponentScore = () => gameState.scores[opponent?.id || ''] || 0;
-  const getMyOuts = () => gameState.outs[socket?.id || ''] || 0;
-  const getOpponentOuts = () => gameState.outs[opponent?.id || ''] || 0;
+  const getMyOuts = () => gameState.wickets[socket?.id || ''] || 0;
+  const getOpponentOuts = () => gameState.wickets[opponent?.id || ''] || 0;
 
   const numbers = [1, 2, 3, 4, 5, 6];
 
-  const PlayerCard = ({ 
-    isMe, 
-    player, 
-    role, 
-    score, 
-    outs, 
-    isActive 
-  }: { 
-    isMe: boolean, 
-    player: any, 
-    role: string, 
-    score: number, 
-    outs: number, 
-    isActive: boolean 
-  }) => (
-    <motion.div
-      className={`
-        neon-card p-6 transition-all duration-300 
-        ${isActive ? 'neon-glow' : 'opacity-60 blur-sm'}
-        ${isMe ? 'border-blue-500' : 'border-pink-500'}
-      `}
-      initial={{ opacity: 0, scale: 0.9 }}
-      animate={{ 
-        opacity: isActive ? 1 : 0.6, 
-        scale: 1,
-        filter: isActive ? 'blur(0px)' : 'blur(2px)'
-      }}
-    >
-      <div className="flex items-center gap-4 mb-4">
-        <Avatar 
-          name={player?.name || 'Player'} 
-          size="60" 
-          round 
-          color={isMe ? '#3b82f6' : '#ec4899'}
-        />
-        <div>
-          <h3 className={`text-lg font-bold ${isMe ? 'neon-text-blue' : 'neon-text-pink'}`}>
-            {player?.name || 'Player'} {isMe && '(You)'}
-          </h3>
-          <p className="text-gray-300 text-sm capitalize">{role}</p>
-        </div>
-      </div>
-      
-      <div className="grid grid-cols-2 gap-4 text-center">
-        <div>
-          <p className="text-2xl font-bold text-white">{score}</p>
-          <p className="text-xs text-gray-400">Runs</p>
-        </div>
-        <div>
-          <p className="text-2xl font-bold text-white">{outs}</p>
-          <p className="text-xs text-gray-400">Outs</p>
-        </div>
-      </div>
-
-      {/* Number Display */}
-      <div className="mt-4 text-center">
-        {revealedNumbers && (isMe ? revealedNumbers.my : revealedNumbers.opponent) !== null ? (
-          <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            className="text-4xl font-bold neon-text"
-          >
-            {isMe ? revealedNumbers.my : revealedNumbers.opponent}
-          </motion.div>
-        ) : (selectedNumber !== null && isMe) || (opponentSelectedNumber !== null && !isMe) ? (
-          <div className="text-2xl text-gray-400">
-            {isMe ? '✓ Selected' : '⏳ Selecting...'}
-          </div>
-        ) : (
-          <div className="text-gray-500 text-sm">
-            {isMe ? 'Choose your number' : 'Waiting...'}
-          </div>
-        )}
-      </div>
-    </motion.div>
-  );
 
   // Create confetti particles for celebration
   const createConfetti = (count: number) => {
